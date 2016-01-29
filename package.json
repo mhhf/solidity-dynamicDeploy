@@ -1,0 +1,24 @@
+{
+  "name": "dynamiccreate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "colors": "^1.1.2",
+    "ethereumjs-account": "^2.0.1",
+    "ethereumjs-tx": "^0.7.1",
+    "ethereumjs-util": "^3.0.0",
+    "ethereumjs-vm": "^1.1.0",
+    "merkle-patricia-tree": "^2.1.1",
+    "rlp": "^2.0.0",
+    "sync-exec": "^0.6.2",
+    "underscore": "^1.8.3",
+    "web3": "^0.15.1"
+  }
+}

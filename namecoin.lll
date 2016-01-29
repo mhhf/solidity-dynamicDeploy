@@ -1,0 +1,19 @@
+(return 0 
+    (lll 
+        (if (not (sload (calldataload 0))) 
+            (seq 
+                (sstore (calldataload 0) (calldataload 32))
+                (seq 
+                    (set '_temp21_1 1)
+                    (return (ref '_temp21_1) 32)
+                )
+            )
+            (seq 
+                (set '_temp27_1 0)
+                (return (ref '_temp27_1) 32)
+            )
+        )
+        0
+    )
+)
+

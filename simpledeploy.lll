@@ -1,0 +1,9 @@
+(return 0
+    (lll
+        (seq
+            (set '_temp4_1 2)
+            (return (ref '_temp4_1) 32)
+        )
+        0
+    )
+)
