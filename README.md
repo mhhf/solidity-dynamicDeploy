@@ -1,6 +1,6 @@
 # Dynamic contract creation
 
-  This is a **Proof of Concept**. Currently only breefly tested on ethereumjs-vm.
+  This is a **Proof of Concept**. Currently only briefly tested on ethereumjs-vm.
 
   Goal was to come up with a solution to let contracts dynamicly create other 
   contracts from a buffer.  This allowes the possibility to let contracts deploy 
