@@ -2,18 +2,18 @@
 
   This is a **Proof of Concept**. Currently only briefly tested on ethereumjs-vm.
 
-  Goal was to come up with a solution to let contracts dynamicly create other 
-  contracts from a buffer.  This allowes the possibility to let contracts deploy 
+  Goal was to come up with a solution to let contracts dynamically create other 
+  contracts from a buffer.  This allows the possibility to let contracts deploy 
   contracts, which weren't present at compile time, but given dynamically in 
   another process.
 
 ## Usage
 
-  1. Deploy the dynamic deployer contract: 
+  1. Deploy the dynamic deploy contract: 
     `0x601480600b6000396000f33680600060003760006000f060005260206000f3`
     
   2. call it with the contract you want to be deployed out of solidity and 
-    recieve the new address of the contract.
+    receive the new address of the contract.
 
 ### Example
 
@@ -51,7 +51,7 @@ contract A {
   }
   ```
   
-  This don't allow the possibility to pass a contract dynamicly to deploy it.
+  This don't allow the possibility to pass a contract dynamically to deploy it.
   However, the EVM is capable of this feature: 
   
   It can create a contract with the `CREATE` opcode. The contract code is taken 
